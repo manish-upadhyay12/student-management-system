@@ -88,3 +88,17 @@ Manish Upadhyay
 B.Tech CSE (Data Science & Artificial Intelligence)
 
 Learning Python, Data Analytics, and Artificial Intelligence.
+
+
+# knowledgeable information
+# 👉 csv.writer(file) ek writer object (tool / pen) banata hai
+# 👉 Ye object directly file me kuch nahi likhta
+# 👉 Ye sirf writing capability deta hai
+# csv.writer()= file me structured data likhne ke liye hota hai
+# writerow() =ek single row likhta hai
+# newline="" =extra blank lines stop karta hai
+# "w" mode= file ko overwrite karta hai
+# csv module =import karna mandatory hai
+# with open("student.csv","w",newline ="") as file:
+#     data = csv.writer(file)
+#     data.writerow(["a",10])
